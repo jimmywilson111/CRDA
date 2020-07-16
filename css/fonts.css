@@ -1,0 +1,17 @@
+/* Font: Montserrat Regular*/
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../fonts/Montserrat_Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}     
+/* Font: Open Sans */
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../fonts/OpenSans_Regular.eot");
+    src: url("../fonts/OpenSans_Regular.eot?#iefix") format('embedded-opentype'),
+         url("../fonts/OpenSans_Regular.woff") format('woff'),
+         url("../fonts/OpenSans_Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

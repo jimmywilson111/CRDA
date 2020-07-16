@@ -1,0 +1,126 @@
+@import variables.sass
+@import url(../css/fonts.css)
+@import _header.sass
+@import _footer.sass
+@import _mixins.sass
+
+#project-description
+    .description-wrapper
+        padding-top: 5%
+        .description-info
+            .banner-title
+                font: 600 1.75rem $main-font
+            .founders-description
+                font: 600 1.125rem $main-font
+            p
+                font: 400 1.25rem $second-font
+                line-height: 34px
+                text-indent: 1.5rem
+            .founders-list
+                .founders-list-item
+                    margin: .75em 0
+                    font: 400 1.25rem $second-font
+            
+#our-mission   
+    .section-subtitle
+        font: 600 1.5rem $main-font
+    .mission-description
+        font: 500 1rem $second-font
+        line-height: 34px
+        text-indent: 1.5rem
+#our-team  
+    .team-member 
+        width: auto
+        height: auto
+        background: none
+        padding: 0 15px 0 0 
+        img
+            max-width: 200px
+            max-height: 200px
+            border-radius: 50%
+            object-fit: cover
+            box-shadow: 6px 7px 25px 1px rgba(0,0,0,0.45)
+        .title-wrapper
+            h3
+                font: 600 1.4375rem $main-font
+                line-height: 32px
+            p
+                font: 500 1rem $second-font
+                line-height: 34px
+                text-indent: 16px
+                padding: 0 15px 0 15px
+                text-indent: 16px
+                                          
+#our-direction
+    background-color: $bgc-second
+    padding: 3% 0
+    .card-deck
+        margin-top: 5%
+        .card
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15)
+            .card-header
+                padding: 0 
+                margin: 0
+            .card-body
+                padding: 0
+                margin: 0 
+                background-color: $white
+                .card-title
+                    padding: 3%
+                    font: 600 1.2rem $main-font
+                    line-height: 32px
+                    margin: 0
+                .card-text
+                    padding: 16px 32px 32px 32px
+                    font: 500 1rem $second-font
+                    line-height: 34px
+
+#linguee
+    padding: 3% 0
+    .linguee-description
+        .linguee-list
+            margin-top: 1em
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
+            height: 100%
+            .linguee-list-item
+                width: 230px
+                img
+                    margin: 0 auto
+                    width: 180px
+                    height: 180px
+                h3
+                    padding-top: .3em
+                    font: bold 1.125rem $main-font
+                    position: relative
+                    display: inline-block
+                    &::before
+                        display: block
+                        position: absolute
+                        content: '\2714'
+                        width: 10px
+                        height: 10px
+                        left: -30px
+    ul
+        li
+            margin: .5em 0    
+            h3
+                font: bold 1.2rem $main-font
+                position: relative
+                display: inline-block
+                margin-left: 30px
+                &::before
+                    display: block
+                    position: absolute
+                    content: '\2714'
+                    width: 10px
+                    height: 10px
+                    left: -30px   
+            svg
+                height: 64px
+                width: 64px
+
+    
+
+     

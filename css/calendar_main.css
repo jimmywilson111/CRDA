@@ -1,0 +1,143 @@
+@import url(../css/fonts.css);
+.header {
+  background-color: #85241E;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-animation: .8s linear;
+          animation: .8s linear;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .site-title-head {
+  font: 500 1.125rem Montserrat Regular, sans-serif;
+  line-height: 22px;
+  color: #FFF;
+}
+
+.navbar .navbar-collapse .navbar-list .nav-item {
+  opacity: .6;
+  padding: 0 10px;
+}
+
+.navbar .navbar-collapse .navbar-list .nav-item:hover {
+  opacity: 1;
+}
+
+.navbar .navbar-collapse .navbar-list .nav-item .nav-link {
+  color: #FFF;
+  font: 500 1.125rem Montserrat Regular, sans-serif;
+}
+
+.navbar .navbar-collapse .navbar-list .active {
+  opacity: 1;
+}
+
+.navbar .navbar-collapse .navbar-list .active .nav-link {
+  color: #FFF;
+}
+
+.navbar .contacts .contact-item a {
+  text-decoration: none;
+  color: #FFDEDC;
+  font: 600 0.8125rem Open Sans Regular, sans-serif;
+  opacity: .8;
+}
+
+.navbar .contacts .contact-item a:hover {
+  opacity: 1;
+  color: #FFF;
+}
+
+.navbar .languages .lang-item {
+  margin: 3px 0;
+}
+
+.navbar .languages .lang-item a {
+  padding: 0;
+}
+
+footer {
+  background-color: #3A2F2F;
+  color: #FFF;
+}
+
+footer .footer-content .address {
+  -webkit-box-flex: 0.8;
+      -ms-flex-positive: 0.8;
+          flex-grow: 0.8;
+}
+
+footer .footer-content .address p {
+  font: 600 1.125rem Montserrat Regular, sans-serif;
+}
+
+footer .contact-wrapper .contacts .contact-item i {
+  color: #FFDEDC;
+  font-size: 20px;
+}
+
+footer .contact-wrapper .contacts .contact-item a {
+  text-decoration: none;
+  color: #FFDEDC;
+  font: 600 14px Open Sans Regular, sans-serif;
+  opacity: .8;
+}
+
+footer .contact-wrapper .contacts .contact-item a:hover {
+  opacity: 1;
+}
+
+footer .languages .lang-item {
+  margin: 3px 0;
+}
+
+footer .languages .lang-item:hover {
+  opacity: .8;
+}
+
+footer .languages .lang-item a {
+  padding: 0;
+}
+
+footer .color-wrapper {
+  background-color: #423838;
+}
+
+footer .color-wrapper p {
+  color: #FFF;
+  font: 600 1.125rem Montserrat Regular, sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  display: block;
+  background-color: #FFF8F8;
+  padding: 5px 0 5px 40px;
+  border-left: 5px solid #85241E;
+  font: 600 1.875rem Montserrat Regular, sans-serif;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+
+#main {
+  padding: 5% 0;
+}
